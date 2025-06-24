@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color:#f0f0f0;
 
 }
 .sidediv{
@@ -9,7 +10,7 @@ body{
     width: 15%;
     height: 100%;
     box-sizing: border-box;
-    background-color: #A3D8F6;
+    background-color: #c0c0c0;
     padding: 10px;
 }
 
@@ -30,7 +31,7 @@ nav ul li{
 }
 
 nav ul li:hover{
-    background-color: #618BAD;
+    background-color: #72777B;
 }
 
 nav ul li a{
@@ -43,4 +44,19 @@ nav ul li a{
     width: 85%;
     box-sizing: border-box;
     padding: 20px;
+}
+
+img{
+    width: 500px;
+}
+
+.element{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 30px 30px 0px #C0CDDC;
 }
