@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.sidediv{
+    position: fixed;
+    left: 0%;
+    width: 15%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #A3D8F6;
+    padding: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+nav ul li:hover{
+    background-color: #618BAD;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.maindiv{
+    margin-left: 15%;
+    width: 85%;
+    box-sizing: border-box;
+    padding: 20px;
+}
