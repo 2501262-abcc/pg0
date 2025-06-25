@@ -21,13 +21,7 @@ nav ul{
 }
 
 nav ul li{
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 5px;
+   border-radius: 5px;
 }
 
 nav ul li:hover{
@@ -37,6 +31,13 @@ nav ul li:hover{
 nav ul li a{
     color: white;
     text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;  
 }
 
 .maindiv{
@@ -47,9 +48,12 @@ nav ul li a{
 }
 
 img{
-    width: 500px;
+    height: 300px;
 }
 
+.tenbosch{
+    height:220px;
+}
 .element{
     margin-top: 50px;
     margin-left: 50px;
@@ -63,3 +67,4 @@ img{
 .maindiv h1{
     margin-left: 50px;
 }
+
